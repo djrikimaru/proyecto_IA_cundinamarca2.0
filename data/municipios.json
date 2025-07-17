@@ -1,0 +1,1352 @@
+[
+  {
+    "nombre": "Agua de Dios",
+    "coordenadas": [
+      4.3757,
+      -74.6708
+    ],
+    "conexiones": [
+      "Tocaima",
+      "Girardot"
+    ],
+    "vecinos": [
+      "Girardot"
+    ]
+  },
+  {
+    "nombre": "Albán",
+    "coordenadas": [
+      4.8784,
+      -74.4352
+    ],
+    "conexiones": [
+      "La Vega",
+      "San Francisco"
+    ]
+  },
+  {
+    "nombre": "Anapoima",
+    "coordenadas": [
+      4.5614,
+      -74.5336
+    ],
+    "conexiones": [
+      "Apulo",
+      "La Mesa"
+    ]
+  },
+  {
+    "nombre": "Anolaima",
+    "coordenadas": [
+      4.7922,
+      -74.4552
+    ],
+    "conexiones": [
+      "La Mesa",
+      "Quipile"
+    ]
+  },
+  {
+    "nombre": "Apulo",
+    "coordenadas": [
+      4.5146,
+      -74.5921
+    ],
+    "conexiones": [
+      "Anapoima",
+      "Tocaima"
+    ]
+  },
+  {
+    "nombre": "Arbeláez",
+    "coordenadas": [
+      4.3171,
+      -74.4148
+    ],
+    "conexiones": [
+      "Fusagasugá",
+      "Pandi"
+    ]
+  },
+  {
+    "nombre": "Beltrán",
+    "coordenadas": [
+      4.7641,
+      -74.7139
+    ],
+    "conexiones": [
+      "Pulí",
+      "Chaguaní"
+    ]
+  },
+  {
+    "nombre": "Bituima",
+    "coordenadas": [
+      4.9471,
+      -74.6008
+    ],
+    "conexiones": [
+      "Chaguaní",
+      "Guayabal de Síquima"
+    ]
+  },
+  {
+    "nombre": "Bogotá",
+    "coordenadas": [
+      4.711,
+      -74.0721
+    ],
+    "conexiones": [
+      "Chía",
+      "Cota",
+      "Soacha",
+      "La Calera",
+      "Choachí"
+    ],
+    "vecinos": [
+      "Girardot",
+      "Cota",
+      "La Calera",
+      "Funza"
+    ]
+  },
+  {
+    "nombre": "Bojacá",
+    "coordenadas": [
+      4.7323,
+      -74.3387
+    ],
+    "conexiones": [
+      "Mosquera",
+      "El Rosal"
+    ]
+  },
+  {
+    "nombre": "Cabrera",
+    "coordenadas": [
+      3.9982,
+      -74.4882
+    ],
+    "conexiones": [
+      "Venecia",
+      "Pandi"
+    ]
+  },
+  {
+    "nombre": "Cachipay",
+    "coordenadas": [
+      4.7322,
+      -74.4495
+    ],
+    "conexiones": [
+      "Anolaima",
+      "La Mesa"
+    ]
+  },
+  {
+    "nombre": "Cajicá",
+    "coordenadas": [
+      4.9183,
+      -74.0287
+    ],
+    "conexiones": [
+      "Chía",
+      "Zipaquirá"
+    ]
+  },
+  {
+    "nombre": "Caparrapí",
+    "coordenadas": [
+      5.3464,
+      -74.4904
+    ],
+    "conexiones": [
+      "Yacopí",
+      "Guaduas"
+    ]
+  },
+  {
+    "nombre": "Cáqueza",
+    "coordenadas": [
+      4.4071,
+      -73.9465
+    ],
+    "conexiones": [
+      "Ubaque",
+      "Chipaque"
+    ]
+  },
+  {
+    "nombre": "Carmen de Carupa",
+    "coordenadas": [
+      5.3484,
+      -73.8692
+    ],
+    "conexiones": [
+      "Tausa",
+      "Cucunubá"
+    ]
+  },
+  {
+    "nombre": "Chaguaní",
+    "coordenadas": [
+      4.8735,
+      -74.7006
+    ],
+    "conexiones": [
+      "Bituima",
+      "Beltrán"
+    ]
+  },
+  {
+    "nombre": "Chía",
+    "coordenadas": [
+      4.861,
+      -74.0593
+    ],
+    "conexiones": [
+      "Cajicá",
+      "Bogotá",
+      "Ricaurte",
+      "Cota"
+    ]
+  },
+  {
+    "nombre": "Chipaque",
+    "coordenadas": [
+      4.4333,
+      -74.05
+    ],
+    "conexiones": [
+      "Cáqueza",
+      "Usme"
+    ]
+  },
+  {
+    "nombre": "Choachí",
+    "coordenadas": [
+      4.5297,
+      -73.9287
+    ],
+    "conexiones": [
+      "Bogotá",
+      "Ubaque",
+      "Ricaurte",
+      "La Calera"
+    ]
+  },
+  {
+    "nombre": "Chocontá",
+    "coordenadas": [
+      5.1452,
+      -73.6846
+    ],
+    "conexiones": [
+      "Villapinzón",
+      "Suesca"
+    ]
+  },
+  {
+    "nombre": "Cogua",
+    "coordenadas": [
+      5.0583,
+      -73.975
+    ],
+    "conexiones": [
+      "Zipaquirá",
+      "Nemocón"
+    ]
+  },
+  {
+    "nombre": "Cota",
+    "coordenadas": [
+      4.8105,
+      -74.1003
+    ],
+    "conexiones": [
+      "Chía",
+      "Bogotá",
+      "Ricaurte"
+    ],
+    "vecinos": [
+      "Bogotá"
+    ]
+  },
+  {
+    "nombre": "Cucunubá",
+    "coordenadas": [
+      5.2579,
+      -73.7584
+    ],
+    "conexiones": [
+      "Carmen de Carupa",
+      "Ubaté"
+    ]
+  },
+  {
+    "nombre": "El Colegio",
+    "coordenadas": [
+      4.5624,
+      -74.4433
+    ],
+    "conexiones": [
+      "La Mesa",
+      "Viotá"
+    ]
+  },
+  {
+    "nombre": "El Peñón",
+    "coordenadas": [
+      5.26,
+      -74.4728
+    ],
+    "conexiones": [
+      "Guaduas",
+      "La Palma"
+    ]
+  },
+  {
+    "nombre": "El Rosal",
+    "coordenadas": [
+      4.8535,
+      -74.2624
+    ],
+    "conexiones": [
+      "Subachoque",
+      "Bojacá"
+    ]
+  },
+  {
+    "nombre": "Facatativá",
+    "coordenadas": [
+      4.8136,
+      -74.3547
+    ],
+    "conexiones": [
+      "Madrid",
+      "El Rosal"
+    ]
+  },
+  {
+    "nombre": "Fómeque",
+    "coordenadas": [
+      4.49,
+      -73.9139
+    ],
+    "conexiones": [
+      "Choachí",
+      "Ubaque"
+    ]
+  },
+  {
+    "nombre": "Fosca",
+    "coordenadas": [
+      4.3333,
+      -73.9167
+    ],
+    "conexiones": [
+      "Cáqueza",
+      "Une"
+    ]
+  },
+  {
+    "nombre": "Funza",
+    "coordenadas": [
+      4.7167,
+      -74.2167
+    ],
+    "conexiones": [
+      "Mosquera",
+      "Madrid"
+    ],
+    "vecinos": [
+      "Bogotá"
+    ]
+  },
+  {
+    "nombre": "Fúquene",
+    "coordenadas": [
+      5.4533,
+      -73.7958
+    ],
+    "conexiones": [
+      "Simijaca",
+      "Ubaté"
+    ]
+  },
+  {
+    "nombre": "Fusagasugá",
+    "coordenadas": [
+      4.343,
+      -74.363
+    ],
+    "conexiones": [
+      "Arbeláez",
+      "Silvania"
+    ]
+  },
+  {
+    "nombre": "Gachalá",
+    "coordenadas": [
+      4.6556,
+      -73.5225
+    ],
+    "conexiones": [
+      "Medina",
+      "Ubalá"
+    ]
+  },
+  {
+    "nombre": "Gachancipá",
+    "coordenadas": [
+      4.9833,
+      -73.8667
+    ],
+    "conexiones": [
+      "Tocancipá",
+      "Sesquilé"
+    ]
+  },
+  {
+    "nombre": "Gachetá",
+    "coordenadas": [
+      4.7824,
+      -73.6147
+    ],
+    "conexiones": [
+      "Guasca",
+      "Junín"
+    ]
+  },
+  {
+    "nombre": "Gama",
+    "coordenadas": [
+      4.7619,
+      -73.4791
+    ],
+    "conexiones": [
+      "Ubalá",
+      "Gachetá"
+    ]
+  },
+  {
+    "nombre": "Girardot",
+    "coordenadas": [
+      4.3034,
+      -74.8034
+    ],
+    "conexiones": [
+      "Agua de Dios",
+      "Ricaurte",
+      "Nariño"
+    ],
+    "vecinos": [
+      "Bogotá",
+      "Ricaurte",
+      "Nariño",
+      "Agua de Dios"
+    ]
+  },
+  {
+    "nombre": "Granada",
+    "coordenadas": [
+      4.5208,
+      -74.3436
+    ],
+    "conexiones": [
+      "Silvania",
+      "Fusagasugá",
+      "Ricaurte",
+      "Sibaté"
+    ]
+  },
+  {
+    "nombre": "Guachetá",
+    "coordenadas": [
+      5.3808,
+      -73.6869
+    ],
+    "conexiones": [
+      "Lenguazaque",
+      "Samacá"
+    ]
+  },
+  {
+    "nombre": "Guaduas",
+    "coordenadas": [
+      5.0706,
+      -74.6025
+    ],
+    "conexiones": [
+      "Caparrapí",
+      "Honda"
+    ]
+  },
+  {
+    "nombre": "Guasca",
+    "coordenadas": [
+      4.8667,
+      -73.8667
+    ],
+    "conexiones": [
+      "La Calera",
+      "Gachetá"
+    ]
+  },
+  {
+    "nombre": "Guataquí",
+    "coordenadas": [
+      4.5167,
+      -74.8333
+    ],
+    "conexiones": [
+      "Girardot",
+      "Jerusalén"
+    ]
+  },
+  {
+    "nombre": "Guatavita",
+    "coordenadas": [
+      4.935,
+      -73.773
+    ],
+    "conexiones": [
+      "Sesquilé",
+      "Tibirita"
+    ]
+  },
+  {
+    "nombre": "Guayabal de Síquima",
+    "coordenadas": [
+      4.8833,
+      -74.5
+    ],
+    "conexiones": [
+      "Bituima",
+      "Albán"
+    ]
+  },
+  {
+    "nombre": "Guayabetal",
+    "coordenadas": [
+      4.2153,
+      -73.8031
+    ],
+    "conexiones": [
+      "Chipaque",
+      "Paratebueno"
+    ]
+  },
+  {
+    "nombre": "Gutiérrez",
+    "coordenadas": [
+      4.1762,
+      -74.0013
+    ],
+    "conexiones": [
+      "Ubaque",
+      "Fusagasugá"
+    ]
+  },
+  {
+    "nombre": "Jerusalén",
+    "coordenadas": [
+      4.5692,
+      -74.6958
+    ],
+    "conexiones": [
+      "Guataquí",
+      "Tocaima"
+    ]
+  },
+  {
+    "nombre": "Junín",
+    "coordenadas": [
+      4.7167,
+      -73.6833
+    ],
+    "conexiones": [
+      "Gachetá",
+      "Gama"
+    ]
+  },
+  {
+    "nombre": "La Calera",
+    "coordenadas": [
+      4.7006,
+      -73.9625
+    ],
+    "conexiones": [
+      "Bogotá",
+      "Guasca",
+      "Choachí"
+    ],
+    "vecinos": [
+      "Bogotá"
+    ]
+  },
+  {
+    "nombre": "La Mesa",
+    "coordenadas": [
+      4.6292,
+      -74.4739
+    ],
+    "conexiones": [
+      "Anapoima",
+      "San Antonio del Tequendama"
+    ]
+  },
+  {
+    "nombre": "La Palma",
+    "coordenadas": [
+      5.3291,
+      -74.3934
+    ],
+    "conexiones": [
+      "Pacho",
+      "El Peñón"
+    ]
+  },
+  {
+    "nombre": "La Peña",
+    "coordenadas": [
+      5.1722,
+      -74.4717
+    ],
+    "conexiones": [
+      "La Palma",
+      "Nimaima"
+    ]
+  },
+  {
+    "nombre": "La Vega",
+    "coordenadas": [
+      4.9622,
+      -74.3447
+    ],
+    "conexiones": [
+      "Sasaima",
+      "Facatativá"
+    ]
+  },
+  {
+    "nombre": "Lenguazaque",
+    "coordenadas": [
+      5.3,
+      -73.6833
+    ],
+    "conexiones": [
+      "Guachetá",
+      "Cucunubá"
+    ]
+  },
+  {
+    "nombre": "Machetá",
+    "coordenadas": [
+      5.0714,
+      -73.6162
+    ],
+    "conexiones": [
+      "Manta",
+      "Tibirita"
+    ]
+  },
+  {
+    "nombre": "Madrid",
+    "coordenadas": [
+      4.7333,
+      -74.2667
+    ],
+    "conexiones": [
+      "Funza",
+      "Facatativá"
+    ]
+  },
+  {
+    "nombre": "Manta",
+    "coordenadas": [
+      5.0006,
+      -73.5381
+    ],
+    "conexiones": [
+      "Machetá",
+      "Tibirita"
+    ]
+  },
+  {
+    "nombre": "Medina",
+    "coordenadas": [
+      4.5028,
+      -73.3517
+    ],
+    "conexiones": [
+      "Gachalá",
+      "Paratebueno"
+    ]
+  },
+  {
+    "nombre": "Mosquera",
+    "coordenadas": [
+      4.7074,
+      -74.2306
+    ],
+    "conexiones": [
+      "Funza",
+      "Bojacá",
+      "Ricaurte"
+    ]
+  },
+  {
+    "nombre": "Nariño",
+    "coordenadas": [
+      4.4017,
+      -74.8264
+    ],
+    "conexiones": [
+      "Girardot",
+      "Ricaurte"
+    ],
+    "vecinos": [
+      "Girardot"
+    ]
+  },
+  {
+    "nombre": "Nemocón",
+    "coordenadas": [
+      5.0667,
+      -73.8833
+    ],
+    "conexiones": [
+      "Cogua",
+      "Zipaquirá"
+    ]
+  },
+  {
+    "nombre": "Nilo",
+    "coordenadas": [
+      4.3092,
+      -74.6247
+    ],
+    "conexiones": [
+      "Tocaima",
+      "Ricaurte"
+    ]
+  },
+  {
+    "nombre": "Nimaima",
+    "coordenadas": [
+      5.1256,
+      -74.3867
+    ],
+    "conexiones": [
+      "Vergara",
+      "La Peña"
+    ]
+  },
+  {
+    "nombre": "Nocaima",
+    "coordenadas": [
+      5.0667,
+      -74.3833
+    ],
+    "conexiones": [
+      "Vergara",
+      "San Francisco"
+    ]
+  },
+  {
+    "nombre": "Pacho",
+    "coordenadas": [
+      5.1475,
+      -74.1597
+    ],
+    "conexiones": [
+      "La Palma",
+      "Supatá"
+    ]
+  },
+  {
+    "nombre": "Paime",
+    "coordenadas": [
+      5.3764,
+      -74.1453
+    ],
+    "conexiones": [
+      "Yacopí",
+      "Pacho"
+    ]
+  },
+  {
+    "nombre": "Pandi",
+    "coordenadas": [
+      4.1833,
+      -74.4833
+    ],
+    "conexiones": [
+      "Cabrera",
+      "Arbeláez"
+    ]
+  },
+  {
+    "nombre": "Paratebueno",
+    "coordenadas": [
+      4.3775,
+      -73.2156
+    ],
+    "conexiones": [
+      "Medina",
+      "Guayabetal"
+    ]
+  },
+  {
+    "nombre": "Pasca",
+    "coordenadas": [
+      4.305,
+      -74.3
+    ],
+    "conexiones": [
+      "Fusagasugá",
+      "Venecia"
+    ]
+  },
+  {
+    "nombre": "Puerto Salgar",
+    "coordenadas": [
+      5.4631,
+      -74.6544
+    ],
+    "conexiones": [
+      "Guaduas"
+    ]
+  },
+  {
+    "nombre": "Pulí",
+    "coordenadas": [
+      4.6997,
+      -74.6964
+    ],
+    "conexiones": [
+      "Beltrán",
+      "Chaguaní"
+    ]
+  },
+  {
+    "nombre": "Quebradanegra",
+    "coordenadas": [
+      5.1228,
+      -74.6178
+    ],
+    "conexiones": [
+      "Bituima",
+      "San Juan de Rioseco"
+    ]
+  },
+  {
+    "nombre": "Quetame",
+    "coordenadas": [
+      4.3328,
+      -73.7642
+    ],
+    "conexiones": [
+      "Guayabetal",
+      "Fosca"
+    ]
+  },
+  {
+    "nombre": "Quipile",
+    "coordenadas": [
+      4.7472,
+      -74.5333
+    ],
+    "conexiones": [
+      "Anolaima",
+      "Apulo"
+    ]
+  },
+  {
+    "nombre": "Ricaurte",
+    "coordenadas": [
+      4.2769,
+      -74.7972
+    ],
+    "conexiones": [
+      "Girardot",
+      "Nilo",
+      "Nariño",
+      "Sasaima",
+      "Mosquera",
+      "Chía",
+      "Choachí",
+      "Granada",
+      "Cota"
+    ],
+    "vecinos": [
+      "Girardot"
+    ]
+  },
+  {
+    "nombre": "San Antonio del Tequendama",
+    "coordenadas": [
+      4.6225,
+      -74.3525
+    ],
+    "conexiones": [
+      "La Mesa",
+      "El Colegio"
+    ]
+  },
+  {
+    "nombre": "San Bernardo",
+    "coordenadas": [
+      4.1742,
+      -74.4167
+    ],
+    "conexiones": [
+      "Venecia",
+      "Pandi"
+    ]
+  },
+  {
+    "nombre": "San Cayetano",
+    "coordenadas": [
+      5.3331,
+      -74.0594
+    ],
+    "conexiones": [
+      "Tibacuy",
+      "Topaipí"
+    ]
+  },
+  {
+    "nombre": "San Francisco",
+    "coordenadas": [
+      4.9603,
+      -74.2664
+    ],
+    "conexiones": [
+      "La Vega",
+      "Supatá"
+    ]
+  },
+  {
+    "nombre": "San Juan de Rioseco",
+    "coordenadas": [
+      4.8333,
+      -74.6667
+    ],
+    "conexiones": [
+      "Tocaima",
+      "Bituima"
+    ]
+  },
+  {
+    "nombre": "Sasaima",
+    "coordenadas": [
+      4.9522,
+      -74.4461
+    ],
+    "conexiones": [
+      "La Vega",
+      "San Juan de Rioseco",
+      "Ricaurte",
+      "Villeta"
+    ]
+  },
+  {
+    "nombre": "Sesquilé",
+    "coordenadas": [
+      5.0833,
+      -73.8
+    ],
+    "conexiones": [
+      "Guatavita",
+      "Gachancipá"
+    ]
+  },
+  {
+    "nombre": "Sibaté",
+    "coordenadas": [
+      4.4853,
+      -74.2586
+    ],
+    "conexiones": [
+      "Soacha",
+      "Fusagasugá",
+      "Granada"
+    ]
+  },
+  {
+    "nombre": "Silvania",
+    "coordenadas": [
+      4.3833,
+      -74.4
+    ],
+    "conexiones": [
+      "Fusagasugá",
+      "Granada"
+    ]
+  },
+  {
+    "nombre": "Simijaca",
+    "coordenadas": [
+      5.4972,
+      -73.8506
+    ],
+    "conexiones": [
+      "Fúquene",
+      "Susa"
+    ]
+  },
+  {
+    "nombre": "Soacha",
+    "coordenadas": [
+      4.5794,
+      -74.2167
+    ],
+    "conexiones": [
+      "Bogotá",
+      "Sibaté"
+    ]
+  },
+  {
+    "nombre": "Sopó",
+    "coordenadas": [
+      4.9039,
+      -73.9439
+    ],
+    "conexiones": [
+      "Chía",
+      "Tocancipá"
+    ]
+  },
+  {
+    "nombre": "Subachoque",
+    "coordenadas": [
+      4.925,
+      -74.1722
+    ],
+    "conexiones": [
+      "El Rosal",
+      "Tabio"
+    ]
+  },
+  {
+    "nombre": "Suesca",
+    "coordenadas": [
+      5.1106,
+      -73.7944
+    ],
+    "conexiones": [
+      "Chocontá",
+      "Cucunubá"
+    ]
+  },
+  {
+    "nombre": "Supatá",
+    "coordenadas": [
+      5.0697,
+      -74.1875
+    ],
+    "conexiones": [
+      "San Francisco",
+      "Pacho"
+    ]
+  },
+  {
+    "nombre": "Susa",
+    "coordenadas": [
+      5.4744,
+      -73.8078
+    ],
+    "conexiones": [
+      "Simijaca",
+      "Fúquene"
+    ]
+  },
+  {
+    "nombre": "Sutatausa",
+    "coordenadas": [
+      5.2386,
+      -73.8506
+    ],
+    "conexiones": [
+      "Ubaté",
+      "Tausa"
+    ]
+  },
+  {
+    "nombre": "Tabio",
+    "coordenadas": [
+      4.9178,
+      -74.0944
+    ],
+    "conexiones": [
+      "Tenjo",
+      "Subachoque"
+    ]
+  },
+  {
+    "nombre": "Tausa",
+    "coordenadas": [
+      5.25,
+      -73.8833
+    ],
+    "conexiones": [
+      "Sutatausa",
+      "Carmen de Carupa"
+    ]
+  },
+  {
+    "nombre": "Tena",
+    "coordenadas": [
+      4.6325,
+      -74.3919
+    ],
+    "conexiones": [
+      "San Antonio del Tequendama",
+      "La Mesa"
+    ]
+  },
+  {
+    "nombre": "Tenjo",
+    "coordenadas": [
+      4.8667,
+      -74.15
+    ],
+    "conexiones": [
+      "Tabio",
+      "Chía"
+    ]
+  },
+  {
+    "nombre": "Tibacuy",
+    "coordenadas": [
+      4.3847,
+      -74.4753
+    ],
+    "conexiones": [
+      "Silvania",
+      "San Bernardo"
+    ]
+  },
+  {
+    "nombre": "Tibirita",
+    "coordenadas": [
+      5.0644,
+      -73.5358
+    ],
+    "conexiones": [
+      "Manta",
+      "Guatavita"
+    ]
+  },
+  {
+    "nombre": "Tocaima",
+    "coordenadas": [
+      4.4578,
+      -74.6372
+    ],
+    "conexiones": [
+      "Apulo",
+      "Agua de Dios"
+    ]
+  },
+  {
+    "nombre": "Tocancipá",
+    "coordenadas": [
+      4.9667,
+      -73.9167
+    ],
+    "conexiones": [
+      "Gachancipá",
+      "Sopó"
+    ]
+  },
+  {
+    "nombre": "Topaipí",
+    "coordenadas": [
+      5.3156,
+      -74.2525
+    ],
+    "conexiones": [
+      "San Cayetano",
+      "Pacho"
+    ]
+  },
+  {
+    "nombre": "Ubalá",
+    "coordenadas": [
+      4.6,
+      -73.5
+    ],
+    "conexiones": [
+      "Gachalá",
+      "Gama"
+    ]
+  },
+  {
+    "nombre": "Ubaque",
+    "coordenadas": [
+      4.4978,
+      -73.9286
+    ],
+    "conexiones": [
+      "Choachí",
+      "Cáqueza"
+    ]
+  },
+  {
+    "nombre": "Ubate",
+    "coordenadas": [
+      5.3094,
+      -73.8147
+    ],
+    "conexiones": [
+      "Cucunubá",
+      "Fúquene"
+    ]
+  },
+  {
+    "nombre": "Une",
+    "coordenadas": [
+      4.3417,
+      -74.0264
+    ],
+    "conexiones": [
+      "Fosca",
+      "Chipaque"
+    ]
+  },
+  {
+    "nombre": "Útica",
+    "coordenadas": [
+      5.185,
+      -74.4819
+    ],
+    "conexiones": [
+      "Quebradanegra",
+      "Guaduas"
+    ]
+  },
+  {
+    "nombre": "Venecia",
+    "coordenadas": [
+      4.0883,
+      -74.4756
+    ],
+    "conexiones": [
+      "Pasca",
+      "Cabrera"
+    ]
+  },
+  {
+    "nombre": "Vergara",
+    "coordenadas": [
+      5.1036,
+      -74.3289
+    ],
+    "conexiones": [
+      "Nimaima",
+      "Nocaima"
+    ]
+  },
+  {
+    "nombre": "Vianí",
+    "coordenadas": [
+      4.8722,
+      -74.6053
+    ],
+    "conexiones": [
+      "Bituima",
+      "San Juan de Rioseco"
+    ]
+  },
+  {
+    "nombre": "Villa de San Diego de Ubate",
+    "coordenadas": [
+      5.308,
+      -73.813
+    ],
+    "conexiones": [
+      "Sutatausa",
+      "Fúquene"
+    ]
+  },
+  {
+    "nombre": "Villagómez",
+    "coordenadas": [
+      5.2833,
+      -73.6833
+    ],
+    "conexiones": [
+      "Lenguazaque",
+      "Guachetá"
+    ]
+  },
+  {
+    "nombre": "Villapinzón",
+    "coordenadas": [
+      5.2111,
+      -73.5944
+    ],
+    "conexiones": [
+      "Chocontá",
+      "Tibirita"
+    ]
+  },
+  {
+    "nombre": "Villeta",
+    "coordenadas": [
+      5.0139,
+      -74.4703
+    ],
+    "conexiones": [
+      "Sasaima",
+      "Utica"
+    ]
+  },
+  {
+    "nombre": "Viotá",
+    "coordenadas": [
+      4.4383,
+      -74.5256
+    ],
+    "conexiones": [
+      "Tibacuy",
+      "El Colegio"
+    ]
+  },
+  {
+    "nombre": "Yacopí",
+    "coordenadas": [
+      5.6156,
+      -74.3397
+    ],
+    "conexiones": [
+      "Paime",
+      "Caparrapí"
+    ]
+  },
+  {
+    "nombre": "Zipacón",
+    "coordenadas": [
+      4.7517,
+      -74.4175
+    ],
+    "conexiones": [
+      "Facatativá",
+      "San Antonio del Tequendama"
+    ]
+  },
+  {
+    "nombre": "Zipaquirá",
+    "coordenadas": [
+      5.0264,
+      -74.0021
+    ],
+    "conexiones": [
+      "Cajicá",
+      "Nemocón"
+    ]
+  }
+]
