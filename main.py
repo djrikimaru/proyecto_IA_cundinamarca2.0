@@ -50,8 +50,8 @@ def generar_mapa_interactivo_estable(municipios, ruta=[]):
 
         popup_html = f"""
         <b>{nombre}</b><br>
-        <button onclick="fetch('http://127.0.0.1:5000/origen?m={nombre}')">Establecer como origen</button><br>
-        <button onclick="fetch('http://127.0.0.1:5000/destino?m={nombre}')">Establecer como destino</button>
+        <button onclick="fetch('http://127.0.0.1:5000/origen?m={nombre}').then(() => location.reload())">Establecer como origen</button><br>
+        <button onclick="fetch('http://127.0.0.1:5000/destino?m={nombre}').then(() => location.reload())">Establecer como destino</button>
         """
 
         folium.Marker(
@@ -66,7 +66,7 @@ def generar_mapa_interactivo_estable(municipios, ruta=[]):
 
     overlay_html = f"""
     <div style='position: fixed; top: 120px; left: 10px; z-index:9999; background-color: white; padding: 8px; border-radius: 6px; box-shadow: 0 0 5px gray;'>
-        <button onclick="fetch('http://127.0.0.1:5000/reset')" style='padding:8px;'>🔄 Reiniciar</button><br><br>
+        <button onclick="fetch('http://127.0.0.1:5000/reset').then(() => location.reload())" style='padding:8px;'>🔄 Reiniciar</button><br><br>
         <div>
             <b>Origen:</b> {origen or '-'}<br>
             <b>Destino:</b> {destino or '-'}
@@ -89,6 +89,7 @@ def generar_mapa_interactivo_estable(municipios, ruta=[]):
                 .then(r => r.text())
                 .then(txt => {{
                     document.getElementById('respuesta').innerText = txt;
+                    setTimeout(() => location.reload(), 2000);
                 }})
                 .catch(err => {{
                     document.getElementById('respuesta').innerText = '❌ Error al contactar la IA.';
@@ -108,6 +109,8 @@ def establecer_origen():
     seleccion = leer_seleccion()
     seleccion["origen"] = municipio
     guardar_seleccion(seleccion["origen"], seleccion.get("destino"))
+    generar_mapa_interactivo_estable(cargar_municipios())
+    webview.windows[0].load_url("file://" + os.path.abspath(MAP_FILE))
     return "✅ Origen actualizado"
 
 @app.route("/destino")
@@ -116,11 +119,15 @@ def establecer_destino():
     seleccion = leer_seleccion()
     seleccion["destino"] = municipio
     guardar_seleccion(seleccion.get("origen"), seleccion["destino"])
+    generar_mapa_interactivo_estable(cargar_municipios())
+    webview.windows[0].load_url("file://" + os.path.abspath(MAP_FILE))
     return "✅ Destino actualizado"
 
 @app.route("/reset")
 def reset_seleccion():
     inicializar_seleccion()
+    generar_mapa_interactivo_estable(cargar_municipios())
+    webview.windows[0].load_url("file://" + os.path.abspath(MAP_FILE))
     return "✅ Selección reiniciada"
 
 @app.route("/preguntar", methods=["POST"])
@@ -135,6 +142,7 @@ def manejar_pregunta():
         if ruta_guardada:
             generar_mapa_interactivo_estable(municipios, ruta_guardada)
             webview.windows[0].load_url("file://" + os.path.abspath(MAP_FILE))
+            inicializar_seleccion()
             return f"📚 Ruta aprendida entre {origen} y {destino}"
         else:
             guardar_seleccion(origen, destino)
@@ -160,10 +168,9 @@ def actualizar_mapa_periodicamente(municipios):
                     coords = ruta_real["coordenadas"]
                     generar_mapa_interactivo_estable(municipios, coords)
                     webview.windows[0].load_url("file://" + os.path.abspath(MAP_FILE))
+                    inicializar_seleccion()
                 else:
                     print("⚠️ No se pudo calcular la ruta real.")
-
-                inicializar_seleccion()
             except Exception as e:
                 print("❌ Error calculando ruta:", e)
         time.sleep(1)
